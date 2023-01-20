@@ -33,3 +33,14 @@ Here we working with api so we will write route in api.php...
 
 *** php artisan make:resource ProductResource ***.
 We return an array of product ....
+
+
+
+#### Some php artisan command ..
+*** php artisan server *** .
+*** php artisan optimize *** .
+
+
+#### We are using Postman to check api..
+
+
