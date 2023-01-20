@@ -16,7 +16,7 @@ then then we migrate this this ....
 
 #### create controller ..
 Here we create three controller 
-1.**php artisan make:controller BaseController**.
+1.**php artisan make:controller BaseController**
 2.**php artisan make:controller Api/RegisterController**.
 3.**php artisan make:controller Api/ProductController --resource**.
 
@@ -33,8 +33,6 @@ Here we working with api so we will write route in api.php...
 
 *** php artisan make:resource ProductResource ***.
 We return an array of product ....
-
-
 
 #### Some php artisan command ..
 *** php artisan server *** .
