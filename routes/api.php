@@ -26,5 +26,7 @@ Route::post('login',[ResisterController::class,'login']);
 
 Route::group(['middleware' => 'auth:sanctum'], function() {
     //product controller 
-    Route::resource('product', ProductController::class);
+    Route::resource('products', ProductController::class);
+
+    Route::get('logout',[ ResisterController::class,'logout']);
 });
