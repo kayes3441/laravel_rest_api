@@ -16,7 +16,7 @@ then then we migrate this this ....
 
 #### create controller ..
 Here we create three controller 
-1.**php artisan make:controller BaseController**
+1.**php artisan make:controller BaseController**.
 2.**php artisan make:controller Api/RegisterController**.
 3.**php artisan make:controller Api/ProductController --resource**.
 
